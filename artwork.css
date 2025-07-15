@@ -1,0 +1,105 @@
+
+html {
+ width: 100%;
+ height: 100%;
+} 
+body {
+ background-color: #DDDDEE;
+} 
+p {
+  background-color: #DDDDEE;
+  color: #000000
+} 
+
+hr {
+  width: 85%;
+  border-color: #5860BB;
+  background-color: #5860BB;
+  color: #5860BB
+} 
+
+h1 {
+  text-align:center;
+  font-family: "Times New Roman", Times;
+  font-size: 28px;
+  font-weight: bold;
+  color: #5860BB;
+}
+
+
+h2 {text-align: center;}
+h3 {text-align: center;}
+h4 {text-align: center;}
+h5 {text-align: center;}
+p  {color: #5860BB;}
+h2 {color: #5860BB;}
+h3 {color: #5860BB;}
+h4 {color: #5860BB;}
+A:link {text-decoration: underline}
+A:visited {text-decoration: none; color: #777777;}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color: red;}
+
+/* Tables */
+.vatable {
+  border-style: hidden;
+  text-align: center;
+  vertical-align: middle;
+  border-width: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #000000;  
+}
+
+.vatable td {
+  border-style: hidden;
+  text-align: center;
+  vertical-align: middle;
+  border-width: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  color: #000000;  
+}
+
+
+table.navigation {
+  border-style: hidden;
+  text-align: center;
+  vertical-align: middle;
+  border-width: 0px;
+  border-spacing: 5px;
+  color: #000000;
+}
+
+table.artwork_table {
+  border-style: hidden;
+  text-align: center;
+  vertical-align: middle;
+  border-width: 0px;
+  border-spacing: 30px;
+  color: #000000;  
+}
+
+IMG.arrow {
+  border-color: #aaaaaa;
+  border-width: 0;
+  border-style: inset;
+  width: 64;
+  height: 64;
+}
+a:hover IMG.arrow {
+  border-color: #ff0000;
+  border-width: 2;
+}
+IMG {
+  border-color: #DDDDEE;
+  border-style: none;
+}
+a:hover IMG {
+  border-style: none;
+}
+
